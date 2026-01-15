@@ -3,92 +3,90 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Guida di Casa</title>
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:#f7f7f7;color:#111}
-    header{padding:18px 16px;background:#111;color:#fff}
-    main{max-width:900px;margin:0 auto;padding:16px}
-    .card{background:#fff;border-radius:12px;padding:14px 14px;margin:12px 0;box-shadow:0 1px 6px rgba(0,0,0,.06)}
-    h2{margin:0 0 8px}
-    a{color:#111}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-    .btn{display:inline-block;padding:10px 12px;border-radius:10px;background:#111;color:#fff;text-decoration:none}
-    small{color:#666}
-  </style>
+  <title data-i18n="meta.title">Guida Casa</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div style="max-width:900px;margin:0 auto;">
-      <div style="font-weight:700;">Guida della Casa</div>
-      <small>Wi-Fi, regole, tutorial e contatti</small>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-title" data-i18n="brand.title">Guida della Casa</div>
+      <div class="brand-sub" data-i18n="brand.subtitle">Istruzioni e informazioni utili</div>
+    </div>
+
+    <div class="lang">
+      <label class="sr-only" for="langSelect">Language</label>
+      <select id="langSelect" aria-label="Language selector">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="ru">Русский</option>
+        <option value="zh">中文</option>
+      </select>
     </div>
   </header>
 
-  <main>
-    <div class="card">
-      <h2>Wi-Fi</h2>
-      <div><b>Rete:</b> NOME_WIFI</div>
-      <div><b>Password:</b> PASSWORD_WIFI</div>
-    </div>
+  <main class="layout">
+    <nav class="sidebar" aria-label="Menu">
+      <a class="nav-item" href="#checkin" data-route="checkin" data-i18n="menu.checkin">Check-in & Check-out</a>
+      <a class="nav-item" href="#recycling" data-route="recycling" data-i18n="menu.recycling">Raccolta differenziata</a>
+      <a class="nav-item" href="#climate" data-route="climate" data-i18n="menu.climate">Climatizzazione</a>
+      <a class="nav-item" href="#security" data-route="security" data-i18n="menu.security">Sicurezza & Accesso</a>
+      <a class="nav-item" href="#entertainment" data-route="entertainment" data-i18n="menu.entertainment">Intrattenimento</a>
+      <a class="nav-item" href="#extras" data-route="extras" data-i18n="menu.extras">Servizi extra</a>
+    </nav>
 
-    <div class="grid">
+    <section class="content">
       <div class="card">
-        <h2>Check-in / Check-out</h2>
-        <a class="btn" href="#checkin">Apri</a>
+        <h1 data-i18n="home.title">Benvenuto</h1>
+        <p data-i18n="home.intro">
+          Seleziona una sezione dal menu. Puoi cambiare lingua in alto a destra.
+        </p>
       </div>
-      <div class="card">
-        <h2>TV (VIDAA)</h2>
-        <a class="btn" href="#tv">Apri</a>
+
+      <div class="grid">
+        <article class="card" id="checkin">
+          <h2 data-i18n="sections.checkin.title">Check-in & Check-out</h2>
+          <p class="muted" data-i18n="sections.checkin.desc">Orari, chiavi, regole di uscita.</p>
+          <div class="placeholder" data-i18n="sections.checkin.placeholder">Contenuto da compilare…</div>
+        </article>
+
+        <article class="card" id="recycling">
+          <h2 data-i18n="sections.recycling.title">Raccolta differenziata</h2>
+          <p class="muted" data-i18n="sections.recycling.desc">Come separare i rifiuti e dove buttare cosa.</p>
+          <div class="placeholder" data-i18n="sections.recycling.placeholder">Contenuto da compilare…</div>
+        </article>
+
+        <article class="card" id="climate">
+          <h2 data-i18n="sections.climate.title">Climatizzazione</h2>
+          <p class="muted" data-i18n="sections.climate.desc">Riscaldamento, aria condizionata, consigli.</p>
+          <div class="placeholder" data-i18n="sections.climate.placeholder">Contenuto da compilare…</div>
+        </article>
+
+        <article class="card" id="security">
+          <h2 data-i18n="sections.security.title">Sicurezza & Accesso</h2>
+          <p class="muted" data-i18n="sections.security.desc">Ingresso, citofono, regole di sicurezza.</p>
+          <div class="placeholder" data-i18n="sections.security.placeholder">Contenuto da compilare…</div>
+        </article>
+
+        <article class="card" id="entertainment">
+          <h2 data-i18n="sections.entertainment.title">Intrattenimento</h2>
+          <p class="muted" data-i18n="sections.entertainment.desc">TV, Wi-Fi, streaming e istruzioni.</p>
+          <div class="placeholder" data-i18n="sections.entertainment.placeholder">Contenuto da compilare…</div>
+        </article>
+
+        <article class="card" id="extras">
+          <h2 data-i18n="sections.extras.title">Servizi extra</h2>
+          <p class="muted" data-i18n="sections.extras.desc">Servizi aggiuntivi e contatti utili.</p>
+          <div class="placeholder" data-i18n="sections.extras.placeholder">Contenuto da compilare…</div>
+        </article>
       </div>
-      <div class="card">
-        <h2>Lavatrice</h2>
-        <a class="btn" href="#lavatrice">Apri</a>
-      </div>
-      <div class="card">
-        <h2>Raccolta differenziata</h2>
-        <a class="btn" href="#rifiuti">Apri</a>
-      </div>
-    </div>
 
-    <div class="card" id="checkin">
-      <h2>Check-in / Check-out</h2>
-      <ul>
-        <li>Orario check-out: …</li>
-        <li>Chiavi: …</li>
-        <li>Cosa fare prima di uscire: …</li>
-      </ul>
-    </div>
-
-    <div class="card" id="tv">
-      <h2>TV</h2>
-      <ol>
-        <li>Accensione: …</li>
-        <li>HDMI / App: …</li>
-        <li>Volume: …</li>
-      </ol>
-    </div>
-
-    <div class="card" id="lavatrice">
-      <h2>Lavatrice</h2>
-      <ol>
-        <li>Detersivo: …</li>
-        <li>Programma consigliato: …</li>
-      </ol>
-    </div>
-
-    <div class="card" id="rifiuti">
-      <h2>Raccolta differenziata</h2>
-      <ul>
-        <li>Plastica: …</li>
-        <li>Vetro: …</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>Emergenze / Contatti</h2>
-      <div><b>Host:</b> +39 …</div>
-      <div><b>Emergenze:</b> 112</div>
-    </div>
+      <footer class="footer">
+        <div data-i18n="footer.note">Ultimo aggiornamento: da compilare</div>
+      </footer>
+    </section>
   </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
