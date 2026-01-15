@@ -59,7 +59,62 @@
         <article class="card" id="climate">
           <h2 data-i18n="sections.climate.title">Climatizzazione</h2>
           <p class="muted" data-i18n="sections.climate.desc">Riscaldamento, aria condizionata, consigli.</p>
-          <div class="placeholder" data-i18n="sections.climate.placeholder">Contenuto da compilare…</div>
+          <div class="climate-controller">
+            <div class="climate-panel">
+              <h3 data-i18n="sections.climate.apiTitle">Connessione Daikin</h3>
+              <p class="muted" data-i18n="sections.climate.apiIntro">
+                Inserisci i parametri API per controllare tutti i climatizzatori Daikin collegati.
+              </p>
+              <form class="climate-form" id="daikinConfigForm">
+                <label class="climate-field">
+                  <span data-i18n="sections.climate.apiBaseUrl">Base URL API</span>
+                  <input id="daikinBaseUrl" type="url" placeholder="https://api.onecta.daikin.eu" required />
+                </label>
+                <label class="climate-field">
+                  <span data-i18n="sections.climate.apiToken">Token di accesso</span>
+                  <input id="daikinToken" type="password" placeholder="Bearer token" />
+                </label>
+                <label class="climate-field">
+                  <span data-i18n="sections.climate.apiDevices">ID dispositivi (separati da virgola)</span>
+                  <textarea id="daikinDevices" rows="2" placeholder="unit-01, unit-02"></textarea>
+                </label>
+                <label class="climate-field">
+                  <span data-i18n="sections.climate.apiEndpoint">Endpoint template</span>
+                  <input id="daikinEndpoint" type="text" placeholder="/api/v1/units/{id}/commands" />
+                </label>
+                <button class="btn-primary" type="submit" data-i18n="sections.climate.saveConfig">Salva configurazione</button>
+                <div class="climate-status" id="daikinSaveStatus" aria-live="polite"></div>
+              </form>
+            </div>
+
+            <div class="climate-panel">
+              <h3 data-i18n="sections.climate.controlTitle">Controller rapido</h3>
+              <p class="muted" data-i18n="sections.climate.controlIntro">
+                Seleziona modalità e temperatura per inviare lo stesso comando a tutti i climatizzatori.
+              </p>
+              <div class="climate-grid">
+                <label class="climate-field">
+                  <span data-i18n="sections.climate.modeLabel">Modalità</span>
+                  <select id="daikinMode">
+                    <option value="heat" data-i18n="sections.climate.modeHeat">Aria calda</option>
+                    <option value="cool" data-i18n="sections.climate.modeCool">Aria fredda</option>
+                    <option value="fan" data-i18n="sections.climate.modeFan">Ventola</option>
+                    <option value="dry" data-i18n="sections.climate.modeDry">Deumidificatore</option>
+                  </select>
+                </label>
+                <label class="climate-field">
+                  <span data-i18n="sections.climate.tempLabel">Temperatura (°C)</span>
+                  <input id="daikinTemp" type="number" min="16" max="30" step="0.5" value="22" />
+                </label>
+                <label class="climate-field">
+                  <span data-i18n="sections.climate.timerLabel">Timer (minuti)</span>
+                  <input id="daikinTimer" type="number" min="0" step="5" value="0" />
+                </label>
+              </div>
+              <button class="btn-primary" id="daikinSend" type="button" data-i18n="sections.climate.sendCommand">Invia comando</button>
+              <div class="climate-status" id="daikinSendStatus" aria-live="polite"></div>
+            </div>
+          </div>
         </article>
 
         <article class="card" id="security">

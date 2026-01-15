@@ -16,7 +16,36 @@
   "sections": {
     "checkin": { "title": "Check-in & Check-out", "desc": "Orari, chiavi, regole di uscita.", "placeholder": "Contenuto da compilare…" },
     "recycling": { "title": "Raccolta differenziata", "desc": "Come separare i rifiuti e dove buttare cosa.", "placeholder": "Contenuto da compilare…" },
-    "climate": { "title": "Climatizzazione", "desc": "Riscaldamento, aria condizionata, consigli.", "placeholder": "Contenuto da compilare…" },
+    "climate": {
+      "title": "Climatizzazione",
+      "desc": "Riscaldamento, aria condizionata, consigli.",
+      "placeholder": "Contenuto da compilare…",
+      "apiTitle": "Connessione Daikin",
+      "apiIntro": "Inserisci i parametri API per controllare tutti i climatizzatori Daikin collegati.",
+      "apiBaseUrl": "Base URL API",
+      "apiToken": "Token di accesso",
+      "apiDevices": "ID dispositivi (separati da virgola)",
+      "apiEndpoint": "Endpoint template",
+      "saveConfig": "Salva configurazione",
+      "controlTitle": "Controller rapido",
+      "controlIntro": "Seleziona modalità e temperatura per inviare lo stesso comando a tutti i climatizzatori.",
+      "modeLabel": "Modalità",
+      "modeHeat": "Aria calda",
+      "modeCool": "Aria fredda",
+      "modeFan": "Ventola",
+      "modeDry": "Deumidificatore",
+      "tempLabel": "Temperatura (°C)",
+      "timerLabel": "Timer (minuti)",
+      "sendCommand": "Invia comando",
+      "status": {
+        "saved": "Configurazione salvata.",
+        "missingConfig": "Inserisci base URL e almeno un dispositivo.",
+        "sending": "Invio comandi in corso…",
+        "success": "Comandi inviati a {count} dispositivi.",
+        "partial": "Comandi inviati a {success} dispositivi, {failed} errori.",
+        "error": "Errore durante l'invio dei comandi."
+      }
+    },
     "security": { "title": "Sicurezza & Accesso", "desc": "Ingresso, citofono, regole di sicurezza.", "placeholder": "Contenuto da compilare…" },
     "entertainment": { "title": "Intrattenimento", "desc": "TV, Wi-Fi, streaming e istruzioni.", "placeholder": "Contenuto da compilare…" },
     "extras": { "title": "Servizi extra", "desc": "Servizi aggiuntivi e contatti utili.", "placeholder": "Contenuto da compilare…" }

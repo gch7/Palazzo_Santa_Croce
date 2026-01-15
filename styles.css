@@ -103,6 +103,76 @@ p{margin:0 0 10px;line-height:1.45}
   color: rgba(244,246,255,.85);
 }
 
+.climate-controller{
+  display:grid;
+  gap:16px;
+  margin-top: 12px;
+}
+
+.climate-panel{
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+  background: rgba(17,18,30,.6);
+}
+
+.climate-form{
+  display:grid;
+  gap:12px;
+  margin-top: 12px;
+}
+
+.climate-grid{
+  display:grid;
+  gap:12px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin: 12px 0;
+}
+
+.climate-field{
+  display:grid;
+  gap:6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.climate-field input,
+.climate-field select,
+.climate-field textarea{
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.climate-field textarea{resize: vertical}
+
+.btn-primary{
+  justify-self: start;
+  background: rgba(90,120,255,.22);
+  color: var(--text);
+  border: 1px solid rgba(90,120,255,.5);
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary:hover{background: rgba(90,120,255,.34)}
+
+.climate-status{
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.climate-status[data-status="success"]{color:#7af0b7}
+.climate-status[data-status="error"]{color:#ff9b9b}
+.climate-status[data-status="warning"]{color:#ffd27a}
+
 .footer{
   margin: 16px 0 40px;
   color: var(--muted);
