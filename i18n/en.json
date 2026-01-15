@@ -1,0 +1,25 @@
+{
+  "meta": { "langTag": "en", "title": "House Guide" },
+  "brand": { "title": "House Guide", "subtitle": "Instructions and useful info" },
+  "menu": {
+    "checkin": "Check-in & Check-out",
+    "recycling": "Recycling",
+    "climate": "Climate control",
+    "security": "Security & Access",
+    "entertainment": "Entertainment",
+    "extras": "Extra services"
+  },
+  "home": {
+    "title": "Welcome",
+    "intro": "Choose a section from the menu. Change language at the top right."
+  },
+  "sections": {
+    "checkin": { "title": "Check-in & Check-out", "desc": "Times, keys, leaving rules.", "placeholder": "Content to fill in…" },
+    "recycling": { "title": "Recycling", "desc": "How to sort waste and where to dispose it.", "placeholder": "Content to fill in…" },
+    "climate": { "title": "Climate control", "desc": "Heating, A/C, tips.", "placeholder": "Content to fill in…" },
+    "security": { "title": "Security & Access", "desc": "Entrance, intercom, safety rules.", "placeholder": "Content to fill in…" },
+    "entertainment": { "title": "Entertainment", "desc": "TV, Wi-Fi, streaming instructions.", "placeholder": "Content to fill in…" },
+    "extras": { "title": "Extra services", "desc": "Additional services and useful contacts.", "placeholder": "Content to fill in…" }
+  },
+  "footer": { "note": "Last updated: to be filled" }
+}
