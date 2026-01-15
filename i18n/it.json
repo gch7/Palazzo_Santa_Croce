@@ -1,0 +1,25 @@
+{
+  "meta": { "langTag": "it", "title": "Guida Casa" },
+  "brand": { "title": "Guida della Casa", "subtitle": "Istruzioni e informazioni utili" },
+  "menu": {
+    "checkin": "Check-in & Check-out",
+    "recycling": "Raccolta differenziata",
+    "climate": "Climatizzazione",
+    "security": "Sicurezza & Accesso",
+    "entertainment": "Intrattenimento",
+    "extras": "Servizi extra"
+  },
+  "home": {
+    "title": "Benvenuto",
+    "intro": "Seleziona una sezione dal menu. Puoi cambiare lingua in alto a destra."
+  },
+  "sections": {
+    "checkin": { "title": "Check-in & Check-out", "desc": "Orari, chiavi, regole di uscita.", "placeholder": "Contenuto da compilare…" },
+    "recycling": { "title": "Raccolta differenziata", "desc": "Come separare i rifiuti e dove buttare cosa.", "placeholder": "Contenuto da compilare…" },
+    "climate": { "title": "Climatizzazione", "desc": "Riscaldamento, aria condizionata, consigli.", "placeholder": "Contenuto da compilare…" },
+    "security": { "title": "Sicurezza & Accesso", "desc": "Ingresso, citofono, regole di sicurezza.", "placeholder": "Contenuto da compilare…" },
+    "entertainment": { "title": "Intrattenimento", "desc": "TV, Wi-Fi, streaming e istruzioni.", "placeholder": "Contenuto da compilare…" },
+    "extras": { "title": "Servizi extra", "desc": "Servizi aggiuntivi e contatti utili.", "placeholder": "Contenuto da compilare…" }
+  },
+  "footer": { "note": "Ultimo aggiornamento: da compilare" }
+}
