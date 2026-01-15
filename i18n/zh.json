@@ -1,0 +1,25 @@
+{
+  "meta": { "langTag": "zh", "title": "住宿指南" },
+  "brand": { "title": "住宿指南", "subtitle": "说明与实用信息" },
+  "menu": {
+    "checkin": "入住与退房",
+    "recycling": "垃圾分类",
+    "climate": "空调/供暖",
+    "security": "安全与门禁",
+    "entertainment": "娱乐",
+    "extras": "额外服务"
+  },
+  "home": {
+    "title": "欢迎",
+    "intro": "请从菜单选择一个部分。右上角可切换语言。"
+  },
+  "sections": {
+    "checkin": { "title": "入住与退房", "desc": "时间、钥匙、退房规则。", "placeholder": "待填写内容…" },
+    "recycling": { "title": "垃圾分类", "desc": "如何分类以及投放位置。", "placeholder": "待填写内容…" },
+    "climate": { "title": "空调/供暖", "desc": "供暖、空调与使用建议。", "placeholder": "待填写内容…" },
+    "security": { "title": "安全与门禁", "desc": "入口、对讲机、安全规则。", "placeholder": "待填写内容…" },
+    "entertainment": { "title": "娱乐", "desc": "电视、Wi-Fi、流媒体使用说明。", "placeholder": "待填写内容…" },
+    "extras": { "title": "额外服务", "desc": "附加服务与有用联系方式。", "placeholder": "待填写内容…" }
+  },
+  "footer": { "note": "最后更新：待填写" }
+}
