@@ -1,1 +1,26 @@
+{
+  "meta": { "langTag": "es", "title": "Guía de la Casa" },
+  "brand": { "title": "Guía de la Casa", "subtitle": "Instrucciones e información útil" },
+  "menu": {
+    "checkin": "Check-in y Check-out",
+    "recycling": "Reciclaje",
+    "climate": "Climatización",
+    "security": "Seguridad y Acceso",
+    "entertainment": "Entretenimiento",
+    "extras": "Servicios extra"
+  },
+  "home": {
+    "title": "Bienvenido",
+    "intro": "Elige una sección del menú. Puedes cambiar el idioma arriba a la derecha."
+  },
+  "sections": {
+    "checkin": { "title": "Check-in y Check-out", "desc": "Horarios, llaves, reglas de salida.", "placeholder": "Contenido por completar…" },
+    "recycling": { "title": "Reciclaje", "desc": "Cómo separar los residuos y dónde tirarlos.", "placeholder": "Contenido por completar…" },
+    "climate": { "title": "Climatización", "desc": "Calefacción, aire acondicionado, consejos.", "placeholder": "Contenido por completar…" },
+    "security": { "title": "Seguridad y Acceso", "desc": "Entrada, portero, normas de seguridad.", "placeholder": "Contenido por completar…" },
+    "entertainment": { "title": "Entretenimiento", "desc": "TV, Wi-Fi, streaming e instrucciones.", "placeholder": "Contenido por completar…" },
+    "extras": { "title": "Servicios extra", "desc": "Servicios adicionales y contactos útiles.", "placeholder": "Contenido por completar…" }
+  },
+  "footer": { "note": "Última actualización: por completar" }
+}
 
