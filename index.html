@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guida di Casa</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:#f7f7f7;color:#111}
+    header{padding:18px 16px;background:#111;color:#fff}
+    main{max-width:900px;margin:0 auto;padding:16px}
+    .card{background:#fff;border-radius:12px;padding:14px 14px;margin:12px 0;box-shadow:0 1px 6px rgba(0,0,0,.06)}
+    h2{margin:0 0 8px}
+    a{color:#111}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    .btn{display:inline-block;padding:10px 12px;border-radius:10px;background:#111;color:#fff;text-decoration:none}
+    small{color:#666}
+  </style>
+</head>
+<body>
+  <header>
+    <div style="max-width:900px;margin:0 auto;">
+      <div style="font-weight:700;">Guida della Casa</div>
+      <small>Wi-Fi, regole, tutorial e contatti</small>
+    </div>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Wi-Fi</h2>
+      <div><b>Rete:</b> NOME_WIFI</div>
+      <div><b>Password:</b> PASSWORD_WIFI</div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Check-in / Check-out</h2>
+        <a class="btn" href="#checkin">Apri</a>
+      </div>
+      <div class="card">
+        <h2>TV (VIDAA)</h2>
+        <a class="btn" href="#tv">Apri</a>
+      </div>
+      <div class="card">
+        <h2>Lavatrice</h2>
+        <a class="btn" href="#lavatrice">Apri</a>
+      </div>
+      <div class="card">
+        <h2>Raccolta differenziata</h2>
+        <a class="btn" href="#rifiuti">Apri</a>
+      </div>
+    </div>
+
+    <div class="card" id="checkin">
+      <h2>Check-in / Check-out</h2>
+      <ul>
+        <li>Orario check-out: …</li>
+        <li>Chiavi: …</li>
+        <li>Cosa fare prima di uscire: …</li>
+      </ul>
+    </div>
+
+    <div class="card" id="tv">
+      <h2>TV</h2>
+      <ol>
+        <li>Accensione: …</li>
+        <li>HDMI / App: …</li>
+        <li>Volume: …</li>
+      </ol>
+    </div>
+
+    <div class="card" id="lavatrice">
+      <h2>Lavatrice</h2>
+      <ol>
+        <li>Detersivo: …</li>
+        <li>Programma consigliato: …</li>
+      </ol>
+    </div>
+
+    <div class="card" id="rifiuti">
+      <h2>Raccolta differenziata</h2>
+      <ul>
+        <li>Plastica: …</li>
+        <li>Vetro: …</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Emergenze / Contatti</h2>
+      <div><b>Host:</b> +39 …</div>
+      <div><b>Emergenze:</b> 112</div>
+    </div>
+  </main>
+</body>
+</html>
