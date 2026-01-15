@@ -16,7 +16,36 @@
   "sections": {
     "checkin": { "title": "入住与退房", "desc": "时间、钥匙、退房规则。", "placeholder": "待填写内容…" },
     "recycling": { "title": "垃圾分类", "desc": "如何分类以及投放位置。", "placeholder": "待填写内容…" },
-    "climate": { "title": "空调/供暖", "desc": "供暖、空调与使用建议。", "placeholder": "待填写内容…" },
+    "climate": {
+      "title": "空调/供暖",
+      "desc": "供暖、空调与使用建议。",
+      "placeholder": "待填写内容…",
+      "apiTitle": "大金连接",
+      "apiIntro": "输入 API 参数以控制所有连接的大金空调。",
+      "apiBaseUrl": "API 基础 URL",
+      "apiToken": "访问令牌",
+      "apiDevices": "设备 ID（逗号分隔）",
+      "apiEndpoint": "接口模板",
+      "saveConfig": "保存配置",
+      "controlTitle": "快速控制器",
+      "controlIntro": "选择模式和温度，将相同指令发送到所有设备。",
+      "modeLabel": "模式",
+      "modeHeat": "制热",
+      "modeCool": "制冷",
+      "modeFan": "送风",
+      "modeDry": "除湿",
+      "tempLabel": "温度 (°C)",
+      "timerLabel": "定时（分钟）",
+      "sendCommand": "发送指令",
+      "status": {
+        "saved": "配置已保存。",
+        "missingConfig": "请输入基础 URL 并至少添加一个设备。",
+        "sending": "正在发送指令…",
+        "success": "已向 {count} 台设备发送指令。",
+        "partial": "已向 {success} 台设备发送指令，{failed} 个错误。",
+        "error": "发送指令时出错。"
+      }
+    },
     "security": { "title": "安全与门禁", "desc": "入口、对讲机、安全规则。", "placeholder": "待填写内容…" },
     "entertainment": { "title": "娱乐", "desc": "电视、Wi-Fi、流媒体使用说明。", "placeholder": "待填写内容…" },
     "extras": { "title": "额外服务", "desc": "附加服务与有用联系方式。", "placeholder": "待填写内容…" }

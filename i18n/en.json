@@ -16,7 +16,36 @@
   "sections": {
     "checkin": { "title": "Check-in & Check-out", "desc": "Times, keys, leaving rules.", "placeholder": "Content to fill in…" },
     "recycling": { "title": "Recycling", "desc": "How to sort waste and where to dispose it.", "placeholder": "Content to fill in…" },
-    "climate": { "title": "Climate control", "desc": "Heating, A/C, tips.", "placeholder": "Content to fill in…" },
+    "climate": {
+      "title": "Climate control",
+      "desc": "Heating, A/C, tips.",
+      "placeholder": "Content to fill in…",
+      "apiTitle": "Daikin connection",
+      "apiIntro": "Enter the API settings to control all connected Daikin units.",
+      "apiBaseUrl": "API base URL",
+      "apiToken": "Access token",
+      "apiDevices": "Device IDs (comma separated)",
+      "apiEndpoint": "Endpoint template",
+      "saveConfig": "Save configuration",
+      "controlTitle": "Quick controller",
+      "controlIntro": "Select mode and temperature to send the same command to every unit.",
+      "modeLabel": "Mode",
+      "modeHeat": "Heat",
+      "modeCool": "Cool",
+      "modeFan": "Fan",
+      "modeDry": "Dehumidifier",
+      "tempLabel": "Temperature (°C)",
+      "timerLabel": "Timer (minutes)",
+      "sendCommand": "Send command",
+      "status": {
+        "saved": "Configuration saved.",
+        "missingConfig": "Enter a base URL and at least one device.",
+        "sending": "Sending commands…",
+        "success": "Commands sent to {count} devices.",
+        "partial": "Commands sent to {success} devices, {failed} errors.",
+        "error": "Error while sending commands."
+      }
+    },
     "security": { "title": "Security & Access", "desc": "Entrance, intercom, safety rules.", "placeholder": "Content to fill in…" },
     "entertainment": { "title": "Entertainment", "desc": "TV, Wi-Fi, streaming instructions.", "placeholder": "Content to fill in…" },
     "extras": { "title": "Extra services", "desc": "Additional services and useful contacts.", "placeholder": "Content to fill in…" }

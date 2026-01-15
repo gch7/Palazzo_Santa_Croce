@@ -16,11 +16,39 @@
   "sections": {
     "checkin": { "title": "Check-in y Check-out", "desc": "Horarios, llaves, reglas de salida.", "placeholder": "Contenido por completar…" },
     "recycling": { "title": "Reciclaje", "desc": "Cómo separar los residuos y dónde tirarlos.", "placeholder": "Contenido por completar…" },
-    "climate": { "title": "Climatización", "desc": "Calefacción, aire acondicionado, consejos.", "placeholder": "Contenido por completar…" },
+    "climate": {
+      "title": "Climatización",
+      "desc": "Calefacción, aire acondicionado, consejos.",
+      "placeholder": "Contenido por completar…",
+      "apiTitle": "Conexión Daikin",
+      "apiIntro": "Introduce los parámetros de API para controlar todos los equipos Daikin conectados.",
+      "apiBaseUrl": "URL base de la API",
+      "apiToken": "Token de acceso",
+      "apiDevices": "ID de dispositivos (separados por comas)",
+      "apiEndpoint": "Plantilla de endpoint",
+      "saveConfig": "Guardar configuración",
+      "controlTitle": "Control rápido",
+      "controlIntro": "Selecciona modo y temperatura para enviar el mismo comando a todos los equipos.",
+      "modeLabel": "Modo",
+      "modeHeat": "Calor",
+      "modeCool": "Frío",
+      "modeFan": "Ventilador",
+      "modeDry": "Deshumidificador",
+      "tempLabel": "Temperatura (°C)",
+      "timerLabel": "Temporizador (minutos)",
+      "sendCommand": "Enviar comando",
+      "status": {
+        "saved": "Configuración guardada.",
+        "missingConfig": "Introduce la URL base y al menos un dispositivo.",
+        "sending": "Enviando comandos…",
+        "success": "Comandos enviados a {count} dispositivos.",
+        "partial": "Comandos enviados a {success} dispositivos, {failed} errores.",
+        "error": "Error al enviar los comandos."
+      }
+    },
     "security": { "title": "Seguridad y Acceso", "desc": "Entrada, portero, normas de seguridad.", "placeholder": "Contenido por completar…" },
     "entertainment": { "title": "Entretenimiento", "desc": "TV, Wi-Fi, streaming e instrucciones.", "placeholder": "Contenido por completar…" },
     "extras": { "title": "Servicios extra", "desc": "Servicios adicionales y contactos útiles.", "placeholder": "Contenido por completar…" }
   },
   "footer": { "note": "Última actualización: por completar" }
 }
-
