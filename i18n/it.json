@@ -15,16 +15,7 @@
   },
   "sections": {
     "checkin": { "title": "Check-in & Check-out", "desc": "Orari, chiavi, regole di uscita.", "placeholder": "Contenuto da compilare…" },
-    "recycling": { "title": "Raccolta differenziata", "desc": "Piccolo secchio GRIGIO / trasparente → RIFIUTO NON RICICLABILE (il secco residuo)
-Piatti di plastica sporchi, pannolini, cerotti, mozziconi, lettiera gatti, ecc.
-Secchio marrone / verde scuro → UMIDO / ORGANICO
-Scarti di cucina, avanzi di cibo, fondi caffè, filtri tè, tovaglioli di carta sporchi, gusci d’uovo, bucce, fiori appassiti
-Sacchetto / contenitore BLU → CARTA e CARTONE
-Giornali, riviste, scatole di cartone, buste di carta, tetrapak (latte, succhi), cartoni della pizza puliti
-Sacchetto / contenitore GIALLO → PLASTICA • METALLI • POLISTIROLO
-Bottiglie plastica, flaconi detersivi, barattoli yogurt, lattine, barattoli alluminio, vaschette polistirolo, pellicole, sacchetti di plastica
-Sacchetto per VETRO (spesso trasparente o con adesivo verde) → VETRO
-Bottiglie e barattoli di vetro (anche con tappo metallico) – senza tappi se possibile", "placeholder": "Contenuto da compilare…" },
+    "recycling": { "title": "Raccolta differenziata", "desc": "", "placeholder": "Piccolo secchio GRIGIO / trasparente → RIFIUTO NON RICICLABILE (il secco residuo) Piatti di plastica sporchi, pannolini, cerotti, mozziconi, lettiera gatti, ecc. Secchio marrone / verde scuro → UMIDO / ORGANICO Scarti di cucina, avanzi di cibo, fondi caffè, filtri tè, tovaglioli di carta sporchi, gusci d’uovo, bucce, fiori appassiti Sacchetto / contenitore BLU → CARTA e CARTONE Giornali, riviste, scatole di cartone, buste di carta, tetrapak (latte, succhi), cartoni della pizza puliti Sacchetto / contenitore GIALLO → PLASTICA • METALLI • POLISTIROLO Bottiglie plastica, flaconi detersivi, barattoli yogurt, lattine, barattoli alluminio, vaschette polistirolo, pellicole, sacchetti di plastica Sacchetto per VETRO (spesso trasparente o con adesivo verde) → VETRO Bottiglie e barattoli di vetro (anche con tappo metallico) – senza tappi se possibile" },
     "climate": { "title": "Climatizzazione", "desc": "Riscaldamento, aria condizionata, consigli.", "placeholder": "Contenuto da compilare…" },
     "security": { "title": "Sicurezza & Accesso", "desc": "Ingresso, citofono, regole di sicurezza.", "placeholder": "Contenuto da compilare…" },
     "entertainment": { "title": "Intrattenimento", "desc": "TV, Wi-Fi, streaming e istruzioni.", "placeholder": "Contenuto da compilare…" },
